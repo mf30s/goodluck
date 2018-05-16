@@ -53,7 +53,7 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 20px;
-  color: #35495e;
+  color: #B70447;
   letter-spacing: 1px;
 }
 
