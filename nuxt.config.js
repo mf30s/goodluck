@@ -1,12 +1,8 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/mf30s.github.io/'
+    base: '/goodluck/'
   }
-} : {
-  router: {
-    base:'/'
-  }
-}
+} : {}
 
 module.exports = {
   /*
