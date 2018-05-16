@@ -13,11 +13,12 @@
     "precommit": "npm run lint",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "update:branch":"git add -u",
+    "update:branch": "git add -u",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "vue-fullpage.js": "0.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
