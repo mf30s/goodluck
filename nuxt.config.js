@@ -1,3 +1,13 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/mf30s.github.io/'
+  }
+} : {
+  router: {
+    base:'/'
+  }
+}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -34,5 +44,6 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  routerBase
 }
