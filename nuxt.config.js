@@ -45,5 +45,5 @@ module.exports = {
       }
     }
   },
-  routerBase
+  ...routerBase
 }
